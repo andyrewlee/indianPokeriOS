@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AF32EFD1B82A1BE00C6F2CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32EFC1B82A1BE00C6F2CA /* AppDelegate.swift */; };
+		5AF32EFF1B82A1BE00C6F2CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32EFE1B82A1BE00C6F2CA /* ViewController.swift */; };
+		5AF32F021B82A1BE00C6F2CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF32F001B82A1BE00C6F2CA /* Main.storyboard */; };
+		5AF32F041B82A1BE00C6F2CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AF32F031B82A1BE00C6F2CA /* Images.xcassets */; };
+		5AF32F071B82A1BE00C6F2CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF32F051B82A1BE00C6F2CA /* LaunchScreen.xib */; };
+		5AF32F131B82A1BE00C6F2CA /* IndianPokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F121B82A1BE00C6F2CA /* IndianPokerTests.swift */; };
+		5AF32F2A1B82A8C800C6F2CA /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F1D1B82A8C800C6F2CA /* SocketAckManager.swift */; };
+		5AF32F2B1B82A8C800C6F2CA /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F1E1B82A8C800C6F2CA /* SocketAnyEvent.swift */; };
+		5AF32F2C1B82A8C800C6F2CA /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F1F1B82A8C800C6F2CA /* SocketEngine.swift */; };
+		5AF32F2D1B82A8C800C6F2CA /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F201B82A8C800C6F2CA /* SocketEngineClient.swift */; };
+		5AF32F2E1B82A8C800C6F2CA /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F211B82A8C800C6F2CA /* SocketEventHandler.swift */; };
+		5AF32F2F1B82A8C800C6F2CA /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F221B82A8C800C6F2CA /* SocketFixUTF8.swift */; };
+		5AF32F301B82A8C800C6F2CA /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F231B82A8C800C6F2CA /* SocketIOClient.swift */; };
+		5AF32F311B82A8C800C6F2CA /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F241B82A8C800C6F2CA /* SocketLogger.swift */; };
+		5AF32F321B82A8C800C6F2CA /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F251B82A8C800C6F2CA /* SocketPacket.swift */; };
+		5AF32F331B82A8C800C6F2CA /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F261B82A8C800C6F2CA /* SocketParser.swift */; };
+		5AF32F341B82A8C800C6F2CA /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F271B82A8C800C6F2CA /* SocketTypes.swift */; };
+		5AF32F351B82A8C800C6F2CA /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F281B82A8C800C6F2CA /* SwiftRegex.swift */; };
+		5AF32F361B82A8C800C6F2CA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F291B82A8C800C6F2CA /* WebSocket.swift */; };
+		5AF32F381B82AED400C6F2CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF32F371B82AED400C6F2CA /* GameViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF32F0D1B82A1BE00C6F2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF32EEF1B82A1BE00C6F2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF32EF61B82A1BE00C6F2CA;
+			remoteInfo = IndianPoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AF32EF71B82A1BE00C6F2CA /* IndianPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF32EFB1B82A1BE00C6F2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF32EFC1B82A1BE00C6F2CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AF32EFE1B82A1BE00C6F2CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AF32F011B82A1BE00C6F2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AF32F031B82A1BE00C6F2CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5AF32F061B82A1BE00C6F2CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5AF32F0C1B82A1BE00C6F2CA /* IndianPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF32F111B82A1BE00C6F2CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF32F121B82A1BE00C6F2CA /* IndianPokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianPokerTests.swift; sourceTree = "<group>"; };
+		5AF32F1D1B82A8C800C6F2CA /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		5AF32F1E1B82A8C800C6F2CA /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		5AF32F1F1B82A8C800C6F2CA /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		5AF32F201B82A8C800C6F2CA /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		5AF32F211B82A8C800C6F2CA /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		5AF32F221B82A8C800C6F2CA /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		5AF32F231B82A8C800C6F2CA /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		5AF32F241B82A8C800C6F2CA /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		5AF32F251B82A8C800C6F2CA /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		5AF32F261B82A8C800C6F2CA /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		5AF32F271B82A8C800C6F2CA /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		5AF32F281B82A8C800C6F2CA /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		5AF32F291B82A8C800C6F2CA /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		5AF32F371B82AED400C6F2CA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AF32EF41B82A1BE00C6F2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF32F091B82A1BE00C6F2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AF32EEE1B82A1BE00C6F2CA = {
+			isa = PBXGroup;
+			children = (
+				5AF32EF91B82A1BE00C6F2CA /* IndianPoker */,
+				5AF32F0F1B82A1BE00C6F2CA /* IndianPokerTests */,
+				5AF32EF81B82A1BE00C6F2CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AF32EF81B82A1BE00C6F2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32EF71B82A1BE00C6F2CA /* IndianPoker.app */,
+				5AF32F0C1B82A1BE00C6F2CA /* IndianPokerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF32EF91B82A1BE00C6F2CA /* IndianPoker */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32F1C1B82A8C800C6F2CA /* SocketIOClientSwift */,
+				5AF32EFC1B82A1BE00C6F2CA /* AppDelegate.swift */,
+				5AF32EFE1B82A1BE00C6F2CA /* ViewController.swift */,
+				5AF32F371B82AED400C6F2CA /* GameViewController.swift */,
+				5AF32F001B82A1BE00C6F2CA /* Main.storyboard */,
+				5AF32F031B82A1BE00C6F2CA /* Images.xcassets */,
+				5AF32F051B82A1BE00C6F2CA /* LaunchScreen.xib */,
+				5AF32EFA1B82A1BE00C6F2CA /* Supporting Files */,
+			);
+			path = IndianPoker;
+			sourceTree = "<group>";
+		};
+		5AF32EFA1B82A1BE00C6F2CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32EFB1B82A1BE00C6F2CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF32F0F1B82A1BE00C6F2CA /* IndianPokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32F121B82A1BE00C6F2CA /* IndianPokerTests.swift */,
+				5AF32F101B82A1BE00C6F2CA /* Supporting Files */,
+			);
+			path = IndianPokerTests;
+			sourceTree = "<group>";
+		};
+		5AF32F101B82A1BE00C6F2CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32F111B82A1BE00C6F2CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AF32F1C1B82A8C800C6F2CA /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5AF32F1D1B82A8C800C6F2CA /* SocketAckManager.swift */,
+				5AF32F1E1B82A8C800C6F2CA /* SocketAnyEvent.swift */,
+				5AF32F1F1B82A8C800C6F2CA /* SocketEngine.swift */,
+				5AF32F201B82A8C800C6F2CA /* SocketEngineClient.swift */,
+				5AF32F211B82A8C800C6F2CA /* SocketEventHandler.swift */,
+				5AF32F221B82A8C800C6F2CA /* SocketFixUTF8.swift */,
+				5AF32F231B82A8C800C6F2CA /* SocketIOClient.swift */,
+				5AF32F241B82A8C800C6F2CA /* SocketLogger.swift */,
+				5AF32F251B82A8C800C6F2CA /* SocketPacket.swift */,
+				5AF32F261B82A8C800C6F2CA /* SocketParser.swift */,
+				5AF32F271B82A8C800C6F2CA /* SocketTypes.swift */,
+				5AF32F281B82A8C800C6F2CA /* SwiftRegex.swift */,
+				5AF32F291B82A8C800C6F2CA /* WebSocket.swift */,
+			);
+			name = SocketIOClientSwift;
+			path = "../../../xcode6/socket.io-client-swift/SocketIOClientSwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AF32EF61B82A1BE00C6F2CA /* IndianPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF32F161B82A1BE00C6F2CA /* Build configuration list for PBXNativeTarget "IndianPoker" */;
+			buildPhases = (
+				5AF32EF31B82A1BE00C6F2CA /* Sources */,
+				5AF32EF41B82A1BE00C6F2CA /* Frameworks */,
+				5AF32EF51B82A1BE00C6F2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndianPoker;
+			productName = IndianPoker;
+			productReference = 5AF32EF71B82A1BE00C6F2CA /* IndianPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AF32F0B1B82A1BE00C6F2CA /* IndianPokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AF32F191B82A1BE00C6F2CA /* Build configuration list for PBXNativeTarget "IndianPokerTests" */;
+			buildPhases = (
+				5AF32F081B82A1BE00C6F2CA /* Sources */,
+				5AF32F091B82A1BE00C6F2CA /* Frameworks */,
+				5AF32F0A1B82A1BE00C6F2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AF32F0E1B82A1BE00C6F2CA /* PBXTargetDependency */,
+			);
+			name = IndianPokerTests;
+			productName = IndianPokerTests;
+			productReference = 5AF32F0C1B82A1BE00C6F2CA /* IndianPokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AF32EEF1B82A1BE00C6F2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Jae Hoon Lee";
+				TargetAttributes = {
+					5AF32EF61B82A1BE00C6F2CA = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z52W8KKVT2;
+					};
+					5AF32F0B1B82A1BE00C6F2CA = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5AF32EF61B82A1BE00C6F2CA;
+					};
+				};
+			};
+			buildConfigurationList = 5AF32EF21B82A1BE00C6F2CA /* Build configuration list for PBXProject "IndianPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AF32EEE1B82A1BE00C6F2CA;
+			productRefGroup = 5AF32EF81B82A1BE00C6F2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AF32EF61B82A1BE00C6F2CA /* IndianPoker */,
+				5AF32F0B1B82A1BE00C6F2CA /* IndianPokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AF32EF51B82A1BE00C6F2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF32F021B82A1BE00C6F2CA /* Main.storyboard in Resources */,
+				5AF32F071B82A1BE00C6F2CA /* LaunchScreen.xib in Resources */,
+				5AF32F041B82A1BE00C6F2CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF32F0A1B82A1BE00C6F2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AF32EF31B82A1BE00C6F2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF32F301B82A8C800C6F2CA /* SocketIOClient.swift in Sources */,
+				5AF32F2A1B82A8C800C6F2CA /* SocketAckManager.swift in Sources */,
+				5AF32F2D1B82A8C800C6F2CA /* SocketEngineClient.swift in Sources */,
+				5AF32F351B82A8C800C6F2CA /* SwiftRegex.swift in Sources */,
+				5AF32F361B82A8C800C6F2CA /* WebSocket.swift in Sources */,
+				5AF32F2C1B82A8C800C6F2CA /* SocketEngine.swift in Sources */,
+				5AF32EFF1B82A1BE00C6F2CA /* ViewController.swift in Sources */,
+				5AF32F321B82A8C800C6F2CA /* SocketPacket.swift in Sources */,
+				5AF32F2E1B82A8C800C6F2CA /* SocketEventHandler.swift in Sources */,
+				5AF32F311B82A8C800C6F2CA /* SocketLogger.swift in Sources */,
+				5AF32F2F1B82A8C800C6F2CA /* SocketFixUTF8.swift in Sources */,
+				5AF32F341B82A8C800C6F2CA /* SocketTypes.swift in Sources */,
+				5AF32F381B82AED400C6F2CA /* GameViewController.swift in Sources */,
+				5AF32F2B1B82A8C800C6F2CA /* SocketAnyEvent.swift in Sources */,
+				5AF32EFD1B82A1BE00C6F2CA /* AppDelegate.swift in Sources */,
+				5AF32F331B82A8C800C6F2CA /* SocketParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AF32F081B82A1BE00C6F2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AF32F131B82A1BE00C6F2CA /* IndianPokerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF32F0E1B82A1BE00C6F2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF32EF61B82A1BE00C6F2CA /* IndianPoker */;
+			targetProxy = 5AF32F0D1B82A1BE00C6F2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AF32F001B82A1BE00C6F2CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF32F011B82A1BE00C6F2CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5AF32F051B82A1BE00C6F2CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AF32F061B82A1BE00C6F2CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AF32F141B82A1BE00C6F2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AF32F151B82A1BE00C6F2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AF32F171B82A1BE00C6F2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5AF32F181B82A1BE00C6F2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = IndianPoker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5AF32F1A1B82A1BE00C6F2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndianPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndianPoker.app/IndianPoker";
+			};
+			name = Debug;
+		};
+		5AF32F1B1B82A1BE00C6F2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndianPokerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndianPoker.app/IndianPoker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AF32EF21B82A1BE00C6F2CA /* Build configuration list for PBXProject "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF32F141B82A1BE00C6F2CA /* Debug */,
+				5AF32F151B82A1BE00C6F2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF32F161B82A1BE00C6F2CA /* Build configuration list for PBXNativeTarget "IndianPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF32F171B82A1BE00C6F2CA /* Debug */,
+				5AF32F181B82A1BE00C6F2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AF32F191B82A1BE00C6F2CA /* Build configuration list for PBXNativeTarget "IndianPokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AF32F1A1B82A1BE00C6F2CA /* Debug */,
+				5AF32F1B1B82A1BE00C6F2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AF32EEF1B82A1BE00C6F2CA /* Project object */;
+}
